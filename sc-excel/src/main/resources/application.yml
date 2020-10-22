@@ -1,0 +1,24 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: sc-demo1
+  swagger:
+    enabled: true
+    security:
+      filter-plugin: true
+      username: root
+      password: root
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+

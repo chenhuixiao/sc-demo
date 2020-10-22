@@ -1,0 +1,84 @@
+[2020-09-03 17:30:01,229][main][INFO][com.example.scdemo1.ScThreadApplicationTests:651] No active profile set, falling back to default profiles: default
+[2020-09-03 17:30:02,677][main][INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-09-03 17:30:02,795][main][INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187] Finished Spring Data repository scanning in 102ms. Found 1 JPA repository interfaces.
+[2020-09-03 17:30:03,215][main][INFO][org.springframework.cloud.context.scope.GenericScope:295] BeanFactory id=28c6ff39-3c5a-3deb-a4a6-fc3139c611c4
+[2020-09-03 17:30:03,916][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-03 17:30:04,182][task-1][INFO][org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.20.Final
+[2020-09-03 17:30:04,479][task-1][INFO][org.hibernate.annotations.common.Version:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-09-03 17:30:04,814][task-1][INFO][com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-09-03 17:30:05,555][task-1][INFO][com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-09-03 17:30:05,607][task-1][INFO][org.hibernate.dialect.Dialect:170] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-09-03 17:30:07,070][task-1][INFO][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-09-03 17:30:07,095][task-1][INFO][org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-09-03 17:30:08,039][main][WARN][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-09-03 17:30:08,824][main][INFO][springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-09-03 17:30:10,190][main][INFO][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+[2020-09-03 17:30:10,222][main][INFO][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+[2020-09-03 17:30:10,298][main][INFO][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-09-03 17:30:10,525][main][INFO][org.springframework.data.repository.config.DeferredRepositoryInitializationListener:49] Triggering deferred initialization of Spring Data repositories…
+[2020-09-03 17:30:10,526][main][INFO][org.springframework.data.repository.config.DeferredRepositoryInitializationListener:53] Spring Data repositories initialized!
+[2020-09-03 17:30:10,546][main][INFO][com.example.scdemo1.ScThreadApplicationTests:61] Started ScThreadApplicationTests in 11.053 seconds (JVM running for 13.089)
+[2020-09-03 17:30:10,730][SpringContextShutdownHook][INFO][org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-09-03 17:30:10,746][SpringContextShutdownHook][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:218] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-03 17:30:10,748][SpringContextShutdownHook][INFO][com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-09-03 17:30:10,765][SpringContextShutdownHook][INFO][com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2020-09-03 18:13:21,957][main][INFO][com.example.scthread.service.component.AsyncDemoComponentTest:651] No active profile set, falling back to default profiles: default
+[2020-09-03 18:13:23,478][main][INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-09-03 18:13:23,617][main][INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187] Finished Spring Data repository scanning in 120ms. Found 1 JPA repository interfaces.
+[2020-09-03 18:13:24,199][main][INFO][org.springframework.cloud.context.scope.GenericScope:295] BeanFactory id=9efe36f3-a929-3f0f-a0f5-d3fec6d2038c
+[2020-09-03 18:13:25,079][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] Initializing ExecutorService
+[2020-09-03 18:13:25,099][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] Initializing ExecutorService 'taskExecutor'
+[2020-09-03 18:13:25,445][Async-Service-1][INFO][org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.20.Final
+[2020-09-03 18:13:25,756][Async-Service-1][INFO][org.hibernate.annotations.common.Version:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-09-03 18:13:26,080][Async-Service-1][INFO][com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-09-03 18:13:26,954][Async-Service-1][INFO][com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-09-03 18:13:26,992][Async-Service-1][INFO][org.hibernate.dialect.Dialect:170] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-09-03 18:13:28,420][Async-Service-1][INFO][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-09-03 18:13:28,441][Async-Service-1][INFO][org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-09-03 18:13:29,851][main][WARN][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-09-03 18:13:30,524][main][INFO][springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-09-03 18:13:32,156][main][INFO][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+[2020-09-03 18:13:32,194][main][INFO][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+[2020-09-03 18:13:32,271][main][INFO][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-09-03 18:13:32,508][main][INFO][org.springframework.data.repository.config.DeferredRepositoryInitializationListener:49] Triggering deferred initialization of Spring Data repositories…
+[2020-09-03 18:13:32,509][main][INFO][org.springframework.data.repository.config.DeferredRepositoryInitializationListener:53] Spring Data repositories initialized!
+[2020-09-03 18:13:32,534][main][INFO][com.example.scthread.service.component.AsyncDemoComponentTest:61] Started AsyncDemoComponentTest in 12.331 seconds (JVM running for 16.62)
+[2020-09-03 18:13:53,200][Async-Service-3][INFO][com.example.scthread.service.component.AsyncDemoComponent:17] 线程名 = Async-Service-3, 线程执行中...
+[2020-09-03 18:13:53,200][Async-Service-4][INFO][com.example.scthread.service.component.AsyncDemoComponent:33] 线程名 = Async-Service-4, 线程执行中...
+[2020-09-03 18:13:53,247][SpringContextShutdownHook][INFO][org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-09-03 18:13:53,253][SpringContextShutdownHook][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:218] Shutting down ExecutorService 'taskExecutor'
+[2020-09-03 18:13:53,254][Async-Service-4][INFO][com.example.scthread.service.component.AsyncDemoComponent:36] 线程名 = Async-Service-4, 线程中断
+[2020-09-03 18:13:53,254][Async-Service-4][INFO][com.example.scthread.service.component.AsyncDemoComponent:39] 线程名 = Async-Service-4, 线程执行完毕
+[2020-09-03 18:13:53,254][SpringContextShutdownHook][INFO][com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-09-03 18:13:53,254][Async-Service-3][INFO][com.example.scthread.service.component.AsyncDemoComponent:20] 线程名 = Async-Service-3, 线程中断
+[2020-09-03 18:13:53,254][Async-Service-3][INFO][com.example.scthread.service.component.AsyncDemoComponent:23] 线程名 = Async-Service-3, 线程执行完毕
+[2020-09-03 18:13:53,284][SpringContextShutdownHook][INFO][com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2020-09-03 18:14:43,084][main][INFO][com.example.scthread.service.component.AsyncDemoComponentTest:651] No active profile set, falling back to default profiles: default
+[2020-09-03 18:14:44,511][main][INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-09-03 18:14:44,640][main][INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187] Finished Spring Data repository scanning in 113ms. Found 1 JPA repository interfaces.
+[2020-09-03 18:14:45,207][main][INFO][org.springframework.cloud.context.scope.GenericScope:295] BeanFactory id=9efe36f3-a929-3f0f-a0f5-d3fec6d2038c
+[2020-09-03 18:14:46,018][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] Initializing ExecutorService
+[2020-09-03 18:14:46,042][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] Initializing ExecutorService 'taskExecutor'
+[2020-09-03 18:14:46,353][Async-Service-1][INFO][org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.20.Final
+[2020-09-03 18:14:46,720][Async-Service-1][INFO][org.hibernate.annotations.common.Version:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-09-03 18:14:47,067][Async-Service-1][INFO][com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+[2020-09-03 18:14:47,863][Async-Service-1][INFO][com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+[2020-09-03 18:14:47,928][Async-Service-1][INFO][org.hibernate.dialect.Dialect:170] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-09-03 18:14:49,304][Async-Service-1][INFO][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-09-03 18:14:49,324][Async-Service-1][INFO][org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-09-03 18:14:50,721][main][WARN][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-09-03 18:14:51,404][main][INFO][springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-09-03 18:14:53,098][main][INFO][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+[2020-09-03 18:14:53,134][main][INFO][springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+[2020-09-03 18:14:53,216][main][INFO][springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+[2020-09-03 18:14:53,448][main][INFO][org.springframework.data.repository.config.DeferredRepositoryInitializationListener:49] Triggering deferred initialization of Spring Data repositories…
+[2020-09-03 18:14:53,449][main][INFO][org.springframework.data.repository.config.DeferredRepositoryInitializationListener:53] Spring Data repositories initialized!
+[2020-09-03 18:14:53,464][main][INFO][com.example.scthread.service.component.AsyncDemoComponentTest:61] Started AsyncDemoComponentTest in 11.961 seconds (JVM running for 15.695)
+[2020-09-03 18:14:54,996][Async-Service-4][INFO][com.example.scthread.service.component.AsyncDemoComponent:33] 线程名 = Async-Service-4, 线程执行中...
+[2020-09-03 18:14:54,996][Async-Service-3][INFO][com.example.scthread.service.component.AsyncDemoComponent:17] 线程名 = Async-Service-3, 线程执行中...
+[2020-09-03 18:16:38,755][Async-Service-4][INFO][com.example.scthread.service.component.AsyncDemoComponent:39] 线程名 = Async-Service-4, 线程执行完毕
+[2020-09-03 18:16:38,754][Async-Service-3][INFO][com.example.scthread.service.component.AsyncDemoComponent:23] 线程名 = Async-Service-3, 线程执行完毕
+[2020-09-03 18:16:38,825][SpringContextShutdownHook][INFO][org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-09-03 18:16:38,829][SpringContextShutdownHook][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:218] Shutting down ExecutorService 'taskExecutor'
+[2020-09-03 18:16:38,830][SpringContextShutdownHook][INFO][com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2020-09-03 18:16:38,857][SpringContextShutdownHook][INFO][com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
